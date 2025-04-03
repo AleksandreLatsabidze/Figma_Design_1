@@ -58,7 +58,7 @@ header button{
 }
 header h1{
     color: var(--secondary-color);
-    font-size: 48px;
+    font-size: 48px;  /*   36 */
     line-height: 60px;
     letter-spacing: -2%;
     font-weight: 600;
@@ -68,7 +68,7 @@ header h1{
 header p{
     color: var(--primary-color);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 20px;   /*18*/
     line-height: 30px;
     letter-spacing: 0%;
     margin-bottom: 20px;
@@ -122,8 +122,8 @@ header p{
     gap:32px;
   }
 .box{
-    width: 384px;
-    /* height: 580px; */
+    width: 384px;  /*343*/
+    /* height: 580px;  530*/
     padding: 24px 24px 32px 24px;
     box-shadow: 0px 4px 6px -2px var(--title-color);
     background-color: #FFF;
@@ -147,10 +147,12 @@ header p{
     margin-bottom: 10px;
 }
 .titleIcon h3{
-   font-weight: 600px;
+   font-weight: 600;
    font-size: 24px;
    line-height: 32px;
    color: var(--title-color);
+   padding-right: 9px;
+
 }
 .titleIcon i{
     color: var(--title-color);
@@ -210,4 +212,15 @@ header p{
 .lastDiv{
     text-align: center;
     margin: 50px 0px;
+}
+.lastPadd p,.podPadd p
+{
+    padding-bottom: 50px;
+
+}
+.introPadd p {
+    padding-bottom: 26px;
+}
+.colPadd p{
+    padding-bottom: 23px;
 }
